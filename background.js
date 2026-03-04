@@ -209,8 +209,8 @@ const commands = {
     const key = t.trim().toUpperCase()
     const entry = countries[key]
     if (!entry) return `Unknown: ${t}  (ISO 3166-1 alpha-2, e.g. JP US DE)`
-    const flag = key.split('').map(ch => String.fromCodePoint(0x1F1E6 + ch.charCodeAt(0) - 65)).join('')
-    return `${flag} ${entry.n} / ${entry.c} / ${entry.d}`
+    // Flag emoji uses surrogate pairs, which are invalid in Chrome Omnibox XML — use [XX] prefix
+    return `[${key}] ${entry.n} / ${entry.c} / ${entry.d}`
   },
   tel: (t) => {
     // International dial code → country name(s). Accepts +81 or 81.
@@ -290,6 +290,9 @@ async function copyToClipboard(text) {
 
 function escapeXml(s) {
   return String(s)
+    // Strip XML-invalid control characters (U+0000–U+0008, U+000B, U+000C, U+000E–U+001F)
+    // and surrogate pairs (flag emoji, etc.) which crash Chrome's Omnibox XML parser
+    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\uD800-\uDFFF]/g, '')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')

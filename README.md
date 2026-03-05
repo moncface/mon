@@ -1,6 +1,8 @@
 # mon[tab]
 
 > Type `mon` + Tab in Chrome's address bar. Instant results. No new tabs.
+>
+> by [moncface](https://github.com/moncface)
 
 ## Install
 
@@ -61,6 +63,13 @@ Opening a new tab to generate a UUID, encode base64, or look up an HTTP status c
 70+ commands planned. See [roadmap](https://github.com/moncface/mon/issues).
 
 Contributions welcome — each command is a single independent file in `commands/`.
+
+## Support
+
+If mon[tab] saves you time, you can support development here:
+
+- [Buy Me a Coffee](https://www.buymeacoffee.com/YOUR_USERNAME)
+- [PayPal](https://www.paypal.me/YOUR_USERNAME)
 
 ## License
 

@@ -19,6 +19,10 @@ UUID, passwords, SHA-256, Base64, JWT decode, timestamps, case conversion, unit 
 
 **[Install & Usage →](https://github.com/moncface/mon-tab)**
 
+## Support
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-moncface-yellow)](https://buymeacoffee.com/moncface)
+
 ## License
 
 MIT

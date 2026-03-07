@@ -8,8 +8,10 @@
 
 | Repo | Platform | Status |
 |---|---|---|
-| [mon-tab](https://github.com/moncface/mon-tab) | Chrome Extension | v0.9.9 |
-| mon-cli | CLI (Node.js) | Coming soon |
+| [mon-tab](https://github.com/moncface/mon-tab) | Chrome Extension | v0.9.10 |
+| [mon-cli](https://github.com/moncface/mon-cli) | CLI (Node.js) | v0.1.0 |
+| mon-tab-vscode | VSCode Extension | Planned |
+| mon-tab-obsidian | Obsidian Plugin | Planned |
 
 ## mon-tab
 

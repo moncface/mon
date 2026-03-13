@@ -15,7 +15,7 @@
 
 ## mon-tab
 
-45 dev tools in Chrome's address bar and terminal. Type `mon` + Tab.
+46 dev tools in Chrome's address bar and terminal. Type `mon` + Tab.
 
 UUID, passwords, SHA-256, Base64, JWT decode, timestamps, case conversion, unit conversion, .lndf distillation, and more — all without opening a new tab.
 

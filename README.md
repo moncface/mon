@@ -23,7 +23,7 @@ UUID, passwords, SHA-256, Base64, JWT decode, timestamps, case conversion, unit 
 
 ## Support
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-moncface-yellow)](https://buymeacoffee.com/moncface)
+[![Support moncface](https://img.shields.io/badge/%E2%98%95_Support_moncface-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/moncface)
 
 ## License
 

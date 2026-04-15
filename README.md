@@ -1,6 +1,7 @@
 # mon
 
-[![GitHub release](https://img.shields.io/github/v/release/moncface/mon-tab)](https://github.com/moncface/mon-tab/releases)
+[![mon-tab release](https://img.shields.io/github/v/release/moncface/mon-tab?label=mon-tab)](https://github.com/moncface/mon-tab/releases)
+[![mon-cli release](https://img.shields.io/github/v/release/moncface/mon-cli?label=mon-cli)](https://github.com/moncface/mon-cli/releases)
 
 > Developer tools, everywhere you need them.
 >

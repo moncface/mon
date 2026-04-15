@@ -1,5 +1,7 @@
 # mon
 
+[![GitHub release](https://img.shields.io/github/v/release/moncface/mon-tab)](https://github.com/moncface/mon-tab/releases)
+
 > Developer tools, everywhere you need them.
 >
 > by [moncface](https://github.com/moncface)
